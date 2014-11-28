@@ -18,7 +18,8 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_dependency "redis"
-  gem.add_development_dependency "rake"
+  gem.add_development_dependency "rake", '10.1.0'
+  gem.add_development_dependency "mime-types", '1.16'
   gem.add_development_dependency "rspec"
   gem.add_development_dependency "eventmachine"
   gem.add_development_dependency "em-synchrony"
